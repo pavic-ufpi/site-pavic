@@ -327,6 +327,12 @@ img {
   gap: 22px;
 }
 
+.booking-layout {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 22px;
+}
+
 .panel,
 .team-card,
 .project-card,
@@ -347,6 +353,11 @@ img {
 .result-list {
   margin: 0;
   padding-left: 18px;
+}
+
+.booking-list {
+  display: grid;
+  gap: 12px;
 }
 
 .section-heading {
@@ -417,6 +428,16 @@ img {
     linear-gradient(180deg, rgba(255, 249, 241, 0.96), rgba(244, 232, 220, 0.92));
 }
 
+.booking-panel {
+  min-height: 100%;
+}
+
+.booking-panel-accent {
+  background:
+    radial-gradient(circle at top left, rgba(15, 91, 78, 0.14), transparent 34%),
+    linear-gradient(180deg, rgba(255, 250, 242, 0.96), rgba(239, 245, 241, 0.88));
+}
+
 .site-footer {
   display: flex;
   justify-content: space-between;
@@ -447,6 +468,7 @@ img {
   .hero,
   .intro-grid,
   .results-layout,
+  .booking-layout,
   .card-grid,
   .project-grid,
   .timeline {
@@ -497,6 +519,7 @@ img {
   .hero,
   .intro-grid,
   .results-layout,
+  .booking-layout,
   .card-grid,
   .project-grid,
   .team-grid,
