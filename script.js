@@ -37,3 +37,4 @@ const observer = new IntersectionObserver(
 );
 
 revealTargets.forEach((target) => observer.observe(target));
+
